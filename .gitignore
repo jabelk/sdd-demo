@@ -1,0 +1,36 @@
+# Claude settings (not skills/commands)
+.claude/settings.local.json
+.claude/settings.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+build/
+
+# Go
+*.exe
+*.test
+vendor/
+
+# Rust
+target/
+*.rs.bk
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.env
+.env.*
